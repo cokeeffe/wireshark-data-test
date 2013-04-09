@@ -20,5 +20,8 @@ Set some values in the file, to control what to you want to do. These include:
 Filters are set on line 19 as per http://www.wireshark.org/docs/dfref/
 When the script runs, results will be stored in the STOREPATH as x.csv where x is the current test number.
 
+<h2>gen_summary.php</h2>
+Generates a single csv output of the average value for all columns in the results folder. Copy to the STOREPATH folder and run from command line using 'php -e gen_summary.php'. It is important the filters set in test.sh match the filters set in the $\titles array in gen_summary.php
+
 <h2>To run</h2>
 simply call ./test.sh 
