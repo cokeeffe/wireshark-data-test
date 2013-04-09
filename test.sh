@@ -28,7 +28,6 @@ do
     sleep 1
     #end wireshark
     kill -HUP $pid
-    ndp -c
     sleep 1
 done
 
